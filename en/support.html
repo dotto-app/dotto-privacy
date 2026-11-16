@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dotto Support</title>
+  <style>
+    /* アプリと同じ配色（Dotto/DesignSystem/Theme.swift） */
+    :root { --bg:#E6F2FB; --card:#FFFFFF; --accent:#2F6BFF; --text:#292B3D; --sub:#6B7387; --sun:#FFC83D; }
+    * { box-sizing: border-box; }
+    body {
+      margin:0; background:var(--bg); color:var(--text);
+      font-family:ui-rounded,-apple-system,BlinkMacSystemFont,"Hiragino Maru Gothic ProN","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+      line-height:1.8; -webkit-font-smoothing:antialiased;
+    }
+    .wrap { max-width:720px; margin:0 auto; padding:32px 20px 64px; }
+    header { text-align:center; padding:24px 0 8px; }
+    .mark { width:88px; height:88px; margin:0 auto; border-radius:22px; background:#5AB8F5;
+      display:flex; align-items:center; justify-content:center; box-shadow:0 6px 18px rgba(41,61,102,0.15); }
+    h1 { font-size:26px; font-weight:800; margin:14px 0 4px; }
+    .lead { color:var(--sub); margin:0; }
+    .card { background:var(--card); border-radius:20px; padding:20px 22px; margin:18px 0;
+      box-shadow:0 4px 14px rgba(41,61,102,0.08); }
+    h2 { font-size:18px; margin:4px 0 12px; color:var(--accent); }
+    .faq { margin:14px 0; }
+    .q { font-weight:700; margin:0 0 4px; }
+    .a { margin:0; color:var(--sub); }
+    a { color:var(--accent); }
+    .contact a { font-weight:700; font-size:18px; }
+    footer { text-align:center; color:var(--sub); font-size:13px; margin-top:28px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="mark" aria-hidden="true">
+        <svg width="60" height="60" viewBox="0 0 96 96"><rect width="96" height="96" rx="14" fill="#FFFFFF"/><rect x="13" y="13" width="10" height="10" rx="2" fill="#E53935"/><rect x="25" y="13" width="10" height="10" rx="2" fill="#E53935"/><rect x="61" y="13" width="10" height="10" rx="2" fill="#E53935"/><rect x="73" y="13" width="10" height="10" rx="2" fill="#E53935"/><rect x="1" y="25" width="10" height="10" rx="2" fill="#E53935"/><rect x="13" y="25" width="10" height="10" rx="2" fill="#F48FB1"/><rect x="25" y="25" width="10" height="10" rx="2" fill="#E53935"/><rect x="37" y="25" width="10" height="10" rx="2" fill="#E53935"/><rect x="49" y="25" width="10" height="10" rx="2" fill="#E53935"/><rect x="61" y="25" width="10" height="10" rx="2" fill="#E53935"/><rect x="73" y="25" width="10" height="10" rx="2" fill="#E53935"/><rect x="85" y="25" width="10" height="10" rx="2" fill="#E53935"/><rect x="1" y="37" width="10" height="10" rx="2" fill="#E53935"/><rect x="13" y="37" width="10" height="10" rx="2" fill="#F48FB1"/><rect x="25" y="37" width="10" height="10" rx="2" fill="#E53935"/><rect x="37" y="37" width="10" height="10" rx="2" fill="#E53935"/><rect x="49" y="37" width="10" height="10" rx="2" fill="#E53935"/><rect x="61" y="37" width="10" height="10" rx="2" fill="#E53935"/><rect x="73" y="37" width="10" height="10" rx="2" fill="#E53935"/><rect x="85" y="37" width="10" height="10" rx="2" fill="#E53935"/><rect x="13" y="49" width="10" height="10" rx="2" fill="#E53935"/><rect x="25" y="49" width="10" height="10" rx="2" fill="#E53935"/><rect x="37" y="49" width="10" height="10" rx="2" fill="#E53935"/><rect x="49" y="49" width="10" height="10" rx="2" fill="#E53935"/><rect x="61" y="49" width="10" height="10" rx="2" fill="#E53935"/><rect x="73" y="49" width="10" height="10" rx="2" fill="#E53935"/><rect x="25" y="61" width="10" height="10" rx="2" fill="#E53935"/><rect x="37" y="61" width="10" height="10" rx="2" fill="#E53935"/><rect x="49" y="61" width="10" height="10" rx="2" fill="#E53935"/><rect x="61" y="61" width="10" height="10" rx="2" fill="#E53935"/><rect x="37" y="73" width="10" height="10" rx="2" fill="#E53935"/><rect x="49" y="73" width="10" height="10" rx="2" fill="#E53935"/></svg>
+      </div>
+      <h1>Dotto Support</h1>
+      <p class="lead">This is the support page for Dotto. <a href="../support.html">日本語</a></p>
+    </header>
+
+    <div class="card contact">
+      <h2>Contact</h2>
+      <p>For questions or bug reports, please email us. We usually reply within a few days.</p>
+      <p><a href="mailto:j61382584@gmail.com?subject=Dotto%20support">j61382584@gmail.com</a></p>
+      <p style="color:var(--sub);font-size:14px;">When reporting a bug, please include your device, iOS version, and what you were doing.</p>
+    </div>
+
+    <div class="card">
+      <h2>FAQ</h2>
+
+      <div class="faq">
+        <p class="q">How do I play?</p>
+        <p class="a">Pick an example on the first screen, choose a color at the bottom, then tap or drag your finger over the squares to paint them. When your picture matches the example, you get “Perfect!”. The number under each color shows how many squares of that color are left. If you make a mistake, use “Erase” or “Undo” (the arrow button).</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">What are “Hints”?</p>
+        <p class="a">When Hints are on, the squares you haven’t painted yet show the example’s colors faintly. Use them when a picture feels hard. Finish without Hints to get a gold star, or with Hints to get a silver star. “Check” makes the squares painted in a different color from the example blink.</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">The squares are too small to paint</p>
+        <p class="a">For “Very hard” and “Master” pictures, spread two fingers apart to zoom in, and move two fingers to look around. Painting always uses one finger. The button at the bottom right shows the whole picture again.</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">Is my picture saved?</p>
+        <p class="a">Yes. It is saved automatically, so you can continue the next time you open it. To paint the same example again, tap “New” after “Done!”. You can see all your pictures in the “Album” on the first screen.</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">How do I delete a picture from the album?</p>
+        <p class="a">Tap “Tidy up” at the top right of the album, choose the picture, then tap “Erase”. Deleted pictures cannot be restored.</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">How do I save to the Photos app?</p>
+        <p class="a">Tap “Done!”, then “Save to Photos”. A math question for parents appears; enter the answer to save the picture. The first time, please allow adding to Photos.</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">The app closes while my child is playing</p>
+        <p class="a">Swiping from the edge of the screen can return to the Home Screen. Guided Access (Settings → Accessibility → Guided Access) keeps your iPhone or iPad in one app.</p>
+      </div>
+
+      <div class="faq">
+        <p class="q">Are there ads or in-app purchases?</p>
+        <p class="a">No. The App does not collect or send any information. See the Privacy Policy for details.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Links</h2>
+      <p><a href="./">Privacy Policy</a></p>
+    </div>
+
+    <footer>
+      <p>Dotto</p>
+    </footer>
+  </div>
+</body>
+</html>
